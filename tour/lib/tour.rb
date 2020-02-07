@@ -1,4 +1,6 @@
-require "tour/version"
+require_relative "./tour/version"
+require_relative './tour/cli'
+
 
 module Tour
   class Error < StandardError; end
